@@ -1,0 +1,19 @@
+h1. Invite Service
+
+Simple invite service with these features:
+  * From JSON file reads customers list
+  * Find customers in specified range
+  * Output customers ID and Name ordered by user id
+  * Includes GeoLocator class which can count distance between to GPS locations or check if one GPS location is in range with other
+  
+h2. Run
+
+bc.. ruby init.rb
+
+h2. Tests
+
+p. Using RSpec as a testing framework. Tests are in tests directory
+
+bc.. rspec geo_locator_spec.rb
+
+bc.. rspec invite_service_spec.rb
